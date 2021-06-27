@@ -36,6 +36,8 @@ compile: gcc --static FileName.c -o OutputName
 
 ## 5. Test the performance of write back and write through policy based on 4-way associative cache with isscc_pcm(15%)
 todo
+
+./build/X86/gem5.opt configs/example/se.py -c ./benchmark/multipy --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache  --l1i_size=32kB --l1d_size=32kB --l2_size=128kB --l3_size=1MB --mem-type=NVMainMemory --nvmain-config=../NVmain/Config/PCM_ISSCC_2012_4GB.config
 ## Bonus (20%)
 Design last level cache policy to reduce the energy consumption of pcm_based main memory
 
