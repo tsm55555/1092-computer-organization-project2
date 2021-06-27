@@ -13,11 +13,7 @@
 參考:https://blog.csdn.net/tristan_tian/article/details/79851063?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-4.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-4.control
 
 照講義添加LL3cache 的參數
-Options.py  
-Caches.py
-Xbar.py 
-BaseCPU.py 
-CacheConfig.py
+
 recompile gem5 (scons EXTRAS=../NVmain build/X86/gem5.opt)
 
 ./build/X86/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/x86/linux/hello --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache --mem-type=NVMainMemory --nvmain-config=../NVmain/Config/PCM_ISSCC_2012_4GB.config
