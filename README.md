@@ -40,3 +40,6 @@ todo
 Design last level cache policy to reduce the energy consumption of pcm_based main memory
 
 Baseline:LRU
+
+![image](https://i.imgur.com/YnDdljo.gif)
+
