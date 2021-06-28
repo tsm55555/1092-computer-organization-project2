@@ -41,7 +41,7 @@ compile: gcc --static FileName.c -o OutputName
 ## 5. Test the performance of write back and write through policy based on 4-way associative cache with isscc_pcm(15%)
 todo
 
-![image](https://media0.giphy.com/media/QmJ3e9So5M9NdNkOGo/giphy.gif?cid=790b76118b299b81f5035c88ba71f10c244a1a258b3ae3b8&rid=giphy.gif&ct=g)
+![image](https://i.giphy.com/media/QmJ3e9So5M9NdNkOGo/giphy.webp)
 
 ![image](https://media2.giphy.com/media/sS8YbjrTzu4KI/giphy.gif?cid=790b761153b8ea69f141ec6195014a1a3eb9323ed261acfd&rid=giphy.gif&ct=g)
 
