@@ -1,4 +1,8 @@
 # 1092-computer-organization-project2
+### GEM5
+
+scons EXTRAS=../NVmain build/X86/gem5.opt
+
 
 ## 1. GEM5 + NVMAIN BUILD-UP (40%)
 
